@@ -1,0 +1,10 @@
+{
+  "target": "critical_occupancy_flag",
+  "threshold_definition": "occupancy_rate >= 90",
+  "prediction_threshold": 0.42,
+  "selection_score": "0.60 * recall + 0.40 * ROC_AUC",
+  "random_state": 42,
+  "test_size": 0.2,
+  "validation_fraction_of_trainval": 0.25,
+  "excluded_leakage_features": ["record_id", "date", "occupancy_rate", "occupied_beds", "available_beds", "high_occupancy_flag", "bed_shortage_flag", "bed_utilization_ratio", "staff_to_patient_ratio", "nurse_to_patient_ratio", "doctor_to_patient_ratio"]
+}

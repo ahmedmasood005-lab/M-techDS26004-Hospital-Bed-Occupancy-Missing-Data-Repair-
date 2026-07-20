@@ -1,0 +1,15 @@
+{
+  "ventilators_available": "median",
+  "daily_admissions": "time_interpolation",
+  "daily_discharge": "time_interpolation",
+  "emergency_cases": "hospital_median",
+  "staff_on_duty": "department_mean",
+  "nurses_on_duty": "department_mean",
+  "doctors_on_duty": "department_mean",
+  "average_length_of_stay": "hospital_median",
+  "patient_turnover_rate": "hospital_median",
+  "occupancy_rate": "time_interpolation",
+  "mortality_rate": "hospital_median",
+  "infection_rate": "hospital_median",
+  "temperature": "time_interpolation"
+}
