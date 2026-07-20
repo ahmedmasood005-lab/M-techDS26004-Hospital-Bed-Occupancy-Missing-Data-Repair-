@@ -1,0 +1,53 @@
+{
+  "descriptive": {
+    "mean": 74.33106574074074,
+    "median": 73.47,
+    "mode": 66.67,
+    "variance": 136.76724602163895,
+    "standard_deviation": 11.694752926917223,
+    "skewness": 0.0821602514048873,
+    "kurtosis": -0.5481893048941817
+  },
+  "shapiro_wilk": {
+    "purpose": "Assess normality on a bounded sample",
+    "statistic": 0.9902505234330997,
+    "p_value": 4.329423482392458e-18
+  },
+  "weekend_t_test": {
+    "purpose": "Compare weekend and weekday mean occupancy",
+    "statistic": 1.2364002172538726,
+    "p_value": 0.2164147341702271
+  },
+  "mann_whitney": {
+    "purpose": "Robust non-normal weekend comparison",
+    "statistic": 2991077.5,
+    "p_value": 0.1978324439043495
+  },
+  "hospital_anova": {
+    "purpose": "Test mean differences across hospitals",
+    "statistic": 0.16081277781164627,
+    "p_value": 0.9581289225848572
+  },
+  "department_kruskal": {
+    "purpose": "Test distribution differences across departments",
+    "statistic": 3482.902017558934,
+    "p_value": 0.0
+  },
+  "chi_square": {
+    "purpose": "Test department/outbreak categorical association",
+    "statistic": 490.9090909090909,
+    "p_value": 7.318415750132918e-104
+  },
+  "confidence_interval_95": [
+    74.0190764878432,
+    74.64305499363829
+  ],
+  "pearson_occupied_admissions": 0.17012121734191754,
+  "spearman_staff_occupancy": 0.1644327461562619,
+  "ks_weekend_weekday": {
+    "purpose": "Compare weekend and weekday distributions",
+    "statistic": 0.034769230769230774,
+    "p_value": 0.14212177187784455
+  },
+  "mcar_note": "Little's test is not run because mixed-type high-dimensional data and designed MAR/MNAR mechanisms violate its practical assumptions; missing indicators are tested against observed covariates instead."
+}

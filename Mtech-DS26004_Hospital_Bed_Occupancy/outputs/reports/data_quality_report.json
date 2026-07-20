@@ -1,0 +1,16 @@
+{
+  "rows": 5400,
+  "columns": 31,
+  "missing_cells": 7603,
+  "missing_percentage": 4.542,
+  "duplicate_rows": 0,
+  "quality_score": 94.62,
+  "issues": [
+    {
+      "rule": "extreme_outliers",
+      "severity": "warning",
+      "count": 2816,
+      "description": "Values beyond 3 IQRs"
+    }
+  ]
+}
